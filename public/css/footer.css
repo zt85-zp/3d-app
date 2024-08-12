@@ -1,0 +1,42 @@
+.footer-container {
+	background-color: #ff0000c3;
+	height: 97px;
+	margin-top: 25px;
+}
+
+.git-container {
+	position: absolute;
+	top: -1.5rem;
+	right: 9rem;
+	width: 3rem;
+	height: 3rem;
+	background-color: white;
+	display: flex;
+	border-radius: 100%;
+	cursor: pointer;
+}
+
+.git-icon,
+.mail-icon {
+	margin: auto;
+	background-image: radial-gradient(red 40%, white 70%);
+	padding: 0.25rem;
+	border-radius: 100%;
+}
+
+.git-icon:hover,
+.mail-icon:hover {
+	border: white 2px solid;
+}
+
+.mail-container {
+	position: absolute;
+	top: -1.5rem;
+	right: 5rem;
+	width: 3rem;
+	height: 3rem;
+	background-color: white;
+	display: flex;
+	border-radius: 100%;
+	cursor: pointer;
+}
